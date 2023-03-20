@@ -67,7 +67,7 @@ def main():
           - Length should be between 8 to 15 characters.
           - Should contain at least one lowercase letter (a-z).
           - Should contain at least one uppercase letter (A-Z).
-          - Should contain at least one special character (@, #, %, &, !, $, etc.).
+          - Should contain at least one special character (@, #, %, !, & , $, etc.).
         """
     )
 

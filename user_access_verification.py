@@ -62,7 +62,7 @@ def get_qualification():
   except Exception as e:
     return None
 
-# User's prior experience in security domain in years >= 5
+''' User's prior experience in security domain in years >= 5 '''
 def get_industry_experience():
   try:
     print("Please enter your experience in security domain (in years): ")

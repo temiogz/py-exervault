@@ -1,10 +1,7 @@
 '''
-
   class: SSP
     -> Simple website blocker program per instruction
-
 '''
-
 
 class SimpleWebsiteBlocker:
   def __init__(self, blocked_websites):
@@ -12,15 +9,12 @@ class SimpleWebsiteBlocker:
 
   def is_verified(self, website):
     is_allowed = True
-
     for blocked_website in self.blocked_websites:
       if blocked_website in website:
         is_allowed = False
         break
-
     return is_allowed
   
-
 blocked_websites = [
     "www.youtube.com", 
     "youtube.com", 
